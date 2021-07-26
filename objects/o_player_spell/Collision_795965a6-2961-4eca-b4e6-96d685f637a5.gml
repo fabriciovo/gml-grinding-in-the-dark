@@ -1,0 +1,1 @@
+instance_change(o_arrow_pickup, true);
