@@ -1,8 +1,12 @@
 {
-    "id": "14bd225f-e17c-4265-865f-d256b9579432",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "monster_orc",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Enemy Scripts",
+    "path": "folders/Scripts/Enemy Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "monster_orc",
+  "tags": [],
+  "resourceType": "GMScript",
 }

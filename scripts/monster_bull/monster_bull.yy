@@ -1,8 +1,12 @@
 {
-    "id": "62388dc7-ffa6-49db-b622-b746295452cd",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "monster_bull",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Enemy Scripts",
+    "path": "folders/Scripts/Enemy Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "monster_bull",
+  "tags": [],
+  "resourceType": "GMScript",
 }

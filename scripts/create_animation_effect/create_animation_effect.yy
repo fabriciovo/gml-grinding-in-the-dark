@@ -1,8 +1,12 @@
 {
-    "id": "e794d9a7-908e-4912-8f72-c08ce4b621d1",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "create_animation_effect",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Effect Scripts",
+    "path": "folders/Scripts/Effect Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "create_animation_effect",
+  "tags": [],
+  "resourceType": "GMScript",
 }

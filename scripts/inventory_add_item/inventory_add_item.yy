@@ -1,8 +1,12 @@
 {
-    "id": "9c44f68b-e7d2-449d-8bfa-b9c15c87467a",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "inventory_add_item",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Inventory",
+    "path": "folders/Scripts/Inventory.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "inventory_add_item",
+  "tags": [],
+  "resourceType": "GMScript",
 }

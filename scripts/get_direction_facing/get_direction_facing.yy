@@ -1,8 +1,12 @@
 {
-    "id": "21272c33-70b9-4421-9614-692d98c4bdcf",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "get_direction_facing",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Movement Scripts",
+    "path": "folders/Scripts/Movement Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "get_direction_facing",
+  "tags": [],
+  "resourceType": "GMScript",
 }

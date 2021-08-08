@@ -1,8 +1,12 @@
 {
-    "id": "2b098e5e-eacf-40fa-859b-ba66cde798c0",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "array_find_index",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Helper Scripts",
+    "path": "folders/Scripts/Helper Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "array_find_index",
+  "tags": [],
+  "resourceType": "GMScript",
 }

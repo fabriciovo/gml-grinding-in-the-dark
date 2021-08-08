@@ -1,8 +1,12 @@
 {
-    "id": "298c05f5-8169-487c-80e2-e0df9460e12f",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "singleton",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Helper Scripts",
+    "path": "folders/Scripts/Helper Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "singleton",
+  "tags": [],
+  "resourceType": "GMScript",
 }
