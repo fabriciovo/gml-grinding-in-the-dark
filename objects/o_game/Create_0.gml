@@ -25,7 +25,7 @@ pause_sprite_scale = display_get_gui_width()/view_wport[0];
 
 //Inventory
 inventory_create(8);
-//inventory_add_item(o_sword_item);
+inventory_add_item(o_sword_item);
 //inventory_add_item(o_magic_sword_item);
 //inventory_add_item(o_ring_item);
 //inventory_add_item(o_ring_item);
