@@ -172,7 +172,6 @@
     {"id":{"name":"r_vila_2","path":"rooms/r_vila_2/r_vila_2.yy",},"order":3,},
     {"id":{"name":"r_vila_3","path":"rooms/r_vila_3/r_vila_3.yy",},"order":5,},
     {"id":{"name":"r_vila_4","path":"rooms/r_vila_4/r_vila_4.yy",},"order":7,},
-    {"id":{"name":"Inventory_Item","path":"scripts/Inventory_Item/Inventory_Item.yy",},"order":0,},
     {"id":{"name":"r_vila_5","path":"rooms/r_vila_5/r_vila_5.yy",},"order":9,},
     {"id":{"name":"r_vila_6","path":"rooms/r_vila_6/r_vila_6.yy",},"order":11,},
     {"id":{"name":"r_rift","path":"rooms/r_rift/r_rift.yy",},"order":13,},
@@ -258,7 +257,6 @@
     {"folderPath":"folders/Extensions.yy","order":23,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sequences.yy","order":1,"resourceVersion":"1.0","name":"Sequences","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Animation Curves.yy","order":1,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Scripts/Inventory/Items.yy","order":8,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
