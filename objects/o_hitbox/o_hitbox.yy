@@ -4,7 +4,7 @@
     "path": "sprites/s_bomb_hitbox/s_bomb_hitbox.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

@@ -4,7 +4,7 @@
     "path": "sprites/s_start_position/s_start_position.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
