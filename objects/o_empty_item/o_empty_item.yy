@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "s_portal",
-    "path": "sprites/s_portal/s_portal.yy",
+    "name": "s_summon",
+    "path": "sprites/s_summon/s_summon.yy",
   },
   "solid": false,
   "visible": false,
   "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
+  "persistent": true,
+  "parentObjectId": {
+    "name": "o_inventory_item",
+    "path": "objects/o_inventory_item/o_inventory_item.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "colision",
-    "path": "folders/Objects/colision.yy",
+    "name": "Inventory",
+    "path": "folders/Objects/items/Inventory.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_portal",
+  "name": "o_empty_item",
   "tags": [],
   "resourceType": "GMObject",
 }

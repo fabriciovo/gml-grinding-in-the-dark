@@ -3,13 +3,16 @@ if !instance_exists(o_player) {
 	instance_destroy();
 }
 if !instance_exists(o_player) exit;
-show_item_ = global.sprite_item[0];
-show_type_ = global.type_item[1];
+
+if instance_exists(global.item[0]) {
+	show_item_ = global.item[0].sprite_;
+	show_type_ = global.item[0].type_;
+}
 
 if show_type_ != "sword" and direction_facing_ == 0{
 	x = o_player.x + 11;
 }else {
-x = o_player.x - 11;
+	x = o_player.x - 11;
 }
 
 inventory_use_item(o_input.action_one_press,global.item[0]);

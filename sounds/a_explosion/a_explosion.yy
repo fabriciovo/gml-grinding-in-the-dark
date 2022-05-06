@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "a_explosion",
-  "duration": 0.0,
+  "duration": 0.884512,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "a_music",
-  "duration": 0.0,
+  "duration": 117.942856,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

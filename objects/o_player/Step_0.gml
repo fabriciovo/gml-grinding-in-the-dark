@@ -6,3 +6,8 @@ if global.player_health <= 0 {
 	state_ = player.dead;
 
 }
+
+if(flash_alpha_ > 0){
+	flash_alpha_ -= 0.05;
+	
+}

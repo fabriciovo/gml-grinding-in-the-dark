@@ -10,7 +10,7 @@ global.player_health = global.player_max_health;
 global.player_max_stamina = 3;
 global.player_stamina = global.player_max_stamina;
 global.player_gems = 0;
-global.player_riftstone = 0;
+global.player_riftstone = 2;
 global.player_start_position = i_game_start;
 
 //audio_play_sound(a_music, 10, true);
@@ -25,7 +25,7 @@ pause_sprite_scale = display_get_gui_width()/view_wport[0];
 
 //Inventory
 inventory_create(8);
-inventory_add_item(o_sword_item);
+//inventory_add_item(o_sword_item);
 //inventory_add_item(o_magic_sword_item);
 //inventory_add_item(o_ring_item);
 //inventory_add_item(o_ring_item);
@@ -34,15 +34,9 @@ inventory_add_item(o_sword_item);
 item_index_ = 0;
 
 //items
-global.item[0] = noone;
-global.item[1] = noone;
-global.sprite_item[0] = s_noone;
-global.sprite_item[1] = s_noone;
-global.type_item[0] = "noone";
-global.type_item[1] = "noone";
+global.item[0] = o_empty_item;
+global.item[1] = o_empty_item;
 
 //rift
 global.level_rift = 1;
 
-//
-global.deleted[0] = noone;

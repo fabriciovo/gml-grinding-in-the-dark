@@ -9,17 +9,13 @@ if pause_ {
 		item_index_ = max(item_index_-1,0);
 		audio_play_sound(a_menu_select,1,false);
 	}
-	if o_input.action_one_press && global.inventory[item_index_] != noone && global.inventory[item_index_] != global.item[1]{
+	if o_input.action_one_press && global.inventory[item_index_] != global.item[0]{
 		global.item[0] = global.inventory[item_index_];
-		global.sprite_item[0] = global.inventory[item_index_].sprite_;
-		global.type_item[0] = global.inventory[item_index_].type_;
-		//remove_item(global.inventory[item_index_]);
 		audio_play_sound(a_menu_select,1,false);
+	
 	}
-	if o_input.action_two_press && global.inventory[item_index_] != noone && global.inventory[item_index_] != global.item[0]{
+	if o_input.action_two_press && global.inventory[item_index_] != global.item[1] {
 		global.item[1] = global.inventory[item_index_];
-		global.sprite_item[1] = global.inventory[item_index_].sprite_;
-		global.type_item[1] = global.inventory[item_index_].type_;
 		audio_play_sound(a_menu_select,1,false);
 	}
 }
