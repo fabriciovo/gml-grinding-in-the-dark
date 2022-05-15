@@ -13,6 +13,18 @@ global.player_gems = 0;
 global.player_riftstone = 2;
 global.player_start_position = i_game_start;
 
+
+enum item_actions {
+    move,
+	sword,
+	bomb,
+	magic_ring,
+	dagger,
+	teleport_ring,
+	magic_sword,
+	shield_ring
+}
+
 //audio_play_sound(a_music, 10, true);
 var _view_width = camera_get_view_width(view_camera[0]);
 var _view_height = camera_get_view_height(view_camera[0]);
@@ -25,17 +37,16 @@ pause_sprite_scale = display_get_gui_width()/view_wport[0];
 
 //Inventory
 inventory_create(8);
-//inventory_add_item(o_sword_item);
-//inventory_add_item(o_magic_sword_item);
-//inventory_add_item(o_ring_item);
-//inventory_add_item(o_ring_item);
-//inventory_add_item(o_bomb_item);
+inventory_add_item(o_sword_item);
+inventory_add_item(o_magic_sword_item);
+inventory_add_item(o_ring_teleport_item);
+inventory_add_item(o_ring_shield_item);
 
 item_index_ = 0;
 
 //items
-global.item[0] = o_empty_item;
-global.item[1] = o_empty_item;
+global.item[0] = noone;
+global.item[1] = noone;
 
 //rift
 global.level_rift = 1;

@@ -6,17 +6,15 @@ max_speed_ = 1.5;
 direction_facing_ = 0; //= 0
 show_item_ = s_noone;
 show_type_ = "";
+
 enum playerrighthand {
 	move,
 	sword,
 	bomb,
 	spell,
-	dagger
-
-	
-	
-	
-	
+	dagger,
+    teleport_ring,
+	shield_ring
 }
 
 enum dirrighthand {
@@ -45,9 +43,17 @@ sprite_[playerrighthand.bomb, dirrighthand.left] = s_player_hand;
 sprite_[playerrighthand.bomb, dirrighthand.up] = s_player_hand;
 sprite_[playerrighthand.bomb, dirrighthand.down] = s_player_hand;
 
-
 sprite_[playerrighthand.spell, dirrighthand.right] = s_player_hand;
 sprite_[playerrighthand.spell, dirrighthand.left] = s_player_hand;
 sprite_[playerrighthand.spell, dirrighthand.up] = s_player_hand;
 sprite_[playerrighthand.spell, dirrighthand.down] = s_player_hand;
 
+sprite_[playerrighthand.teleport_ring, dirrighthand.right] = s_player_hand
+sprite_[playerrighthand.teleport_ring, dirrighthand.left] = s_player_hand;
+sprite_[playerrighthand.teleport_ring, dirrighthand.up] = s_player_hand;
+sprite_[playerrighthand.teleport_ring, dirrighthand.down] = s_player_hand;
+
+sprite_[playerrighthand.shield_ring, dirrighthand.right] = s_player_hand
+sprite_[playerrighthand.shield_ring, dirrighthand.left] = s_player_hand;
+sprite_[playerrighthand.shield_ring, dirrighthand.up] = s_player_hand;
+sprite_[playerrighthand.shield_ring, dirrighthand.down] = s_player_hand;

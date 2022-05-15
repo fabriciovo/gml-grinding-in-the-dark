@@ -9,5 +9,4 @@ if global.player_health <= 0 {
 
 if(flash_alpha_ > 0){
 	flash_alpha_ -= 0.05;
-	
 }

@@ -4,12 +4,16 @@ if !instance_exists(o_player) {
 }
 if !instance_exists(o_player) exit;
 direction_facing_ = o_player.direction_facing_;
-if instance_exists(global.item[1]) {
+if global.item[1] != noone {
 	show_item_ = global.item[1].sprite_;
-	show_type_ = global.item[1].type_;
+}else{
+	show_item_ = s_noone;
 }
-
-
+if global.item[0] != noone {
+	show_type_ = global.item[0].type_;
+}else{
+	show_type_ = "";
+}
 
 if show_type_ != "sword" and direction_facing_ == 2{
 	x = o_player.x -11;

@@ -1,7 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-alarm[0] = global.one_second*random(10);
-instance_create_layer(x,y,"Instances",choose(o_enemy_fire,o_enemy_bomb,o_enemy_orc,o_enemy_ghost));
-
-	
+if room == r_rift_1 {
+	alarm[0] = global.one_second*random(10);
+	instance_create_layer(x,y,"Instances",choose(o_enemy_cinder,o_enemy_bomb,o_enemy_orc,o_enemy_ghost));
+}	
+if room == r_boss_area {
+	alarm[0] = global.one_second*random(10);
+	instance_create_layer(x,y,"Instances",o_enemy_cinder);
+}

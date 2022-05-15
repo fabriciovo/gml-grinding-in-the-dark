@@ -1,5 +1,5 @@
 event_inherited();
 description_ = "A dagger";
-action_ = 4;
+action_ = item_actions.dagger;
 cost_ = 1;
 type_ = "dagger";

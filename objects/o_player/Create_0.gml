@@ -12,6 +12,7 @@ roll_direction_ = 0;
 flash_alpha_ = 0;
 flash_color_ = c_white;
 
+
 enum player {
 	move,
 	evade,

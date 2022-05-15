@@ -1,4 +1,4 @@
 event_inherited();
 description_ = "A bomb!";
-action_ = 2;
+action_ = item_actions.bomb;
 cost_ = 3;

@@ -37,7 +37,7 @@
     "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_enemy_fire",
+  "name": "o_enemy_cinder",
   "tags": [],
   "resourceType": "GMObject",
 }

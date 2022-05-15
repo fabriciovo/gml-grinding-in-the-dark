@@ -7,3 +7,7 @@ if(active_){
 }else{
 	image_index = 0;
 }
+
+if(global.level_rift == 5){
+	instance_destroy();
+}
