@@ -1,0 +1,1 @@
+tutorial_text_ = "Take this sword!\nYou can equip this\nsword pressing ENTER";

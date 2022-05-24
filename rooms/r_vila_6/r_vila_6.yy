@@ -1,10 +1,7 @@
 {
   "isDnd": false,
   "volume": 1.0,
-  "parentRoom": {
-    "name": "r_vila",
-    "path": "rooms/r_vila/r_vila.yy",
-  },
+  "parentRoom": null,
   "views": [
     {"inherit":true,"visible":true,"xview":0,"yview":0,"wview":320,"hview":180,"xport":0,"yport":0,"wport":1280,"hport":720,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":true,"visible":false,"xview":0,"yview":0,"wview":1024,"hview":768,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -19,8 +16,6 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_enemy_bomb","path":"objects/o_enemy_bomb/o_enemy_bomb.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":216.0,"y":328.0,"resourceVersion":"1.0","name":"inst_2A8FEBBB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_enemy_bomb","path":"objects/o_enemy_bomb/o_enemy_bomb.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":232.0,"resourceVersion":"1.0","name":"inst_7B40B59F","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"o_enemy_cinder","path":"objects/o_enemy_cinder/o_enemy_cinder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":152.0,"resourceVersion":"1.0","name":"inst_6A20FFA8","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"o_enemy_cinder","path":"objects/o_enemy_cinder/o_enemy_cinder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":208.0,"resourceVersion":"1.0","name":"inst_52E289A3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_enemy_cinder","path":"objects/o_enemy_cinder/o_enemy_cinder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":128.0,"resourceVersion":"1.0","name":"inst_5FCFE9BA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_enemy_bomb","path":"objects/o_enemy_bomb/o_enemy_bomb.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":104.0,"y":64.0,"resourceVersion":"1.0","name":"inst_27118109","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_enemy_bomb","path":"objects/o_enemy_bomb/o_enemy_bomb.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":456.0,"y":72.0,"resourceVersion":"1.0","name":"inst_D9EB813","tags":[],"resourceType":"GMRInstance",},
@@ -87,6 +82,10 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":288.0,"resourceVersion":"1.0","name":"inst_6A21DD68","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_portal","path":"objects/o_portal/o_portal.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":536.0,"y":320.0,"resourceVersion":"1.0","name":"inst_5B5D809F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_start_position","path":"objects/o_start_position/o_start_position.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":320.0,"resourceVersion":"1.0","name":"i_vila_3_to_vila_6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_enemy_goblin","path":"objects/o_enemy_goblin/o_enemy_goblin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":208.0,"resourceVersion":"1.0","name":"inst_4876F966","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_enemy_goblin","path":"objects/o_enemy_goblin/o_enemy_goblin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":296.0,"y":160.0,"resourceVersion":"1.0","name":"inst_5B5BD994","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_enemy_goblin","path":"objects/o_enemy_goblin/o_enemy_goblin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":240.0,"y":56.0,"resourceVersion":"1.0","name":"inst_4928D5C2","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_enemy_goblin","path":"objects/o_enemy_goblin/o_enemy_goblin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":288.0,"resourceVersion":"1.0","name":"inst_64B13ECE","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tileset1","path":"tilesets/tileset1/tileset1.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":33,"SerialiseHeight":23,"TileSerialiseData":[
@@ -122,8 +121,6 @@
   "instanceCreationOrder": [
     {"name":"inst_2A8FEBBB","path":"rooms/r_vila_6/r_vila_6.yy",},
     {"name":"inst_7B40B59F","path":"rooms/r_vila_6/r_vila_6.yy",},
-    {"name":"inst_6A20FFA8","path":"rooms/r_vila_6/r_vila_6.yy",},
-    {"name":"inst_52E289A3","path":"rooms/r_vila_6/r_vila_6.yy",},
     {"name":"inst_5FCFE9BA","path":"rooms/r_vila_6/r_vila_6.yy",},
     {"name":"inst_27118109","path":"rooms/r_vila_6/r_vila_6.yy",},
     {"name":"inst_D9EB813","path":"rooms/r_vila_6/r_vila_6.yy",},
@@ -190,6 +187,10 @@
     {"name":"inst_6A21DD68","path":"rooms/r_vila_6/r_vila_6.yy",},
     {"name":"inst_5B5D809F","path":"rooms/r_vila_6/r_vila_6.yy",},
     {"name":"i_vila_3_to_vila_6","path":"rooms/r_vila_6/r_vila_6.yy",},
+    {"name":"inst_4876F966","path":"rooms/r_vila_6/r_vila_6.yy",},
+    {"name":"inst_5B5BD994","path":"rooms/r_vila_6/r_vila_6.yy",},
+    {"name":"inst_4928D5C2","path":"rooms/r_vila_6/r_vila_6.yy",},
+    {"name":"inst_64B13ECE","path":"rooms/r_vila_6/r_vila_6.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,
@@ -213,8 +214,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "r_vila",
-    "path": "folders/Rooms/r_vila.yy",
+    "name": "World",
+    "path": "folders/Rooms/World.yy",
   },
   "resourceVersion": "1.0",
   "name": "r_vila_6",

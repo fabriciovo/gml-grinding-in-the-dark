@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_ring_item",
-    "path": "sprites/s_ring_item/s_ring_item.yy",
+    "name": "s_teleport_ring_item",
+    "path": "sprites/s_teleport_ring_item/s_teleport_ring_item.yy",
   },
   "solid": false,
   "visible": false,

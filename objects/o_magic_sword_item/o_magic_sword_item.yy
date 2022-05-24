@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_sword_magic",
-    "path": "sprites/s_sword_magic/s_sword_magic.yy",
+    "name": "s_sword_magic_item",
+    "path": "sprites/s_sword_magic_item/s_sword_magic_item.yy",
   },
   "solid": false,
   "visible": false,

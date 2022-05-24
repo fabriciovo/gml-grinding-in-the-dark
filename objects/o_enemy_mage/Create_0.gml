@@ -9,7 +9,7 @@ enum magemonster {
 	wait
 }
 
-starting_state_ = magemonster.idle;
+starting_state_ = magemonster.move;
 state_ = starting_state_;
 
 image_index = 0;

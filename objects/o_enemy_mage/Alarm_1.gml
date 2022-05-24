@@ -1,2 +1,2 @@
 instance_create_layer(x,y,"Instances",o_spell);
-state_ = magemonster.idle;
+state_ = magemonster.move;

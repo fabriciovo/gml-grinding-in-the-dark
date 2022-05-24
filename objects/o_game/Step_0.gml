@@ -53,4 +53,6 @@ if o_input.pause_pressed{
 	}
 	
 }
-
+if(global.extra_health <= 0){
+	global.extra_health = 0;
+}

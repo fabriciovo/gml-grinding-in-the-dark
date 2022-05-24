@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "items",
-    "path": "folders/Objects/items.yy",
+    "name": "Pickup",
+    "path": "folders/Objects/items/Pickup.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_pickup_dagger",

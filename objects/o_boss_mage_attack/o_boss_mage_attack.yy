@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_player_hand1",
-    "path": "sprites/s_player_hand1/s_player_hand1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

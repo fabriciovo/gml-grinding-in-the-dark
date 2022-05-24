@@ -6,6 +6,6 @@ move_movement_entity(false);
 invincible_ = true;
 
 if alarm[2] == -1{
-	alarm[2] = 8;
+	alarm[2] = 12;
 }
 

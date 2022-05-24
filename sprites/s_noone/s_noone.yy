@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Misc Sprites",
-    "path": "folders/Sprites/Misc Sprites.yy",
+    "path": "folders/Sprites/UI Sprites/Misc Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_noone",

@@ -16,9 +16,9 @@ if global.item[0] != noone {
 }
 
 if show_type_ != "sword" and direction_facing_ == 2{
-	x = o_player.x -11;
+	x = o_player.x -14;
 }else {
-	x = o_player.x +11;
+	x = o_player.x +14;
 }
 
 

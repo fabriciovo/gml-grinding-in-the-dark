@@ -17,9 +17,9 @@ if global.item[1] != noone {
 }
 
 if show_type_ != "sword" and direction_facing_ == 0{
-	x = o_player.x + 11;
+	x = o_player.x + 14;
 }else {
-	x = o_player.x +-11;
+	x = o_player.x - 14;
 }
 
 inventory_use_item(o_input.action_one_press,global.item[0]);

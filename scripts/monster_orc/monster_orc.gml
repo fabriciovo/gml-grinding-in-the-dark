@@ -5,13 +5,11 @@ function monster_orc() {
 	var dis = point_distance(x,y,o_player.x,o_player.y);
 
 
-	if(dis < 30){
+	if(dis < 120){
 	    state_ = orcmonster.attack;
 	}else{
 		state_ = orcmonster.move;
 	}
 
 	}
-
-
 }

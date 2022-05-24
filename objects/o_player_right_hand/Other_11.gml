@@ -9,7 +9,7 @@ if animation_hit_frame(1) {
 	var _life = 3;
 	var _damage = 1;
 	var _knockback = 0;
-	var _hitbox = create_hitbox(s_sword_hitbox, x, y, _angle, _life, [o_enemy, o_item_destructible,o_box], _damage, _knockback);
+	var _hitbox = create_hitbox(s_sword_hitbox, x, y, _angle, _life, [o_enemy, o_item_destructible], _damage, _knockback);
 	audio_play_sound(a_swipe, 7,false);
 	switch direction_facing_ {
 		case dir.up: _hitbox.y -= 4; break;

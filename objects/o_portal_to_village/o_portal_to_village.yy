@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "s_portal",
-    "path": "sprites/s_portal/s_portal.yy",
+    "name": "s_portal_rift_to_village",
+    "path": "sprites/s_portal_rift_to_village/s_portal_rift_to_village.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_portal",
+    "path": "objects/o_portal/o_portal.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,12 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":5,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Rift",
-    "path": "folders/Objects/Rift.yy",
+    "name": "colision",
+    "path": "folders/Objects/colision.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_portal_to_village",
