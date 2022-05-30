@@ -36,3 +36,32 @@ if show_type_ == "sword" {
 event_user(state_);
 sprite_index = sprite_[state_, direction_facing_];
 
+
+switch(state_){
+	case playerhand.sword:
+	global.analytics_weapons.sword++;
+	break;
+	case playerhand.magic_sword:
+	global.analytics_weapons.magic_sword++;
+	break;
+	case playerhand.bomb:
+	global.analytics_weapons.bomb++;
+	break;
+	case playerhand.spell:
+	//global.analytics_weapons.sword_++;
+	break;
+	case playerhand.dagger:
+	global.analytics_weapons.dagger++;
+	break;
+	case playerhand.teleport_ring:
+	global.analytics_weapons.teleport_ring++;
+	break;
+	case playerhand.shield_ring:
+	global.analytics_weapons.shield_ring++;
+	break;
+}
+
+
+
+
+

@@ -13,4 +13,7 @@ if hurtbox_entity_can_be_hit_by(other) {
 	state_ = player.hit;
 	event_user(state_);
 	audio_play_sound(a_hurt, 7,false);
+	last_enemy_ = object_get_name(other.enemy_index_);
 }
+
+

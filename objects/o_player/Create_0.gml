@@ -11,7 +11,7 @@ roll_direction_ = 0;
 
 flash_alpha_ = 0;
 flash_color_ = c_white;
-
+last_enemy_ = ""
 
 enum player {
 	move,

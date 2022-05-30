@@ -15,7 +15,8 @@ enum playerhand {
 	spell,
 	dagger,
 	teleport_ring,
-	shield_ring
+	shield_ring,
+	magic_sword
 }
 
 enum dirhand {
