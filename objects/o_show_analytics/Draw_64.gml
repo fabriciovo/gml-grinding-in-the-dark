@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-var _gui_width = display_get_gui_width();
-var _gui_height = display_get_gui_height();
+
 //Most killer Monsters
 draw_text(40,50,"Monsters");
 draw_text(40,100,"Cinder: " + string(cinder_kill_));

@@ -10,7 +10,6 @@
     {"id":{"name":"s_sword_spell","path":"sprites/s_sword_spell/s_sword_spell.yy",},"order":8,},
     {"id":{"name":"s_start_position","path":"sprites/s_start_position/s_start_position.yy",},"order":1,},
     {"id":{"name":"s_portal","path":"sprites/s_portal/s_portal.yy",},"order":3,},
-    {"id":{"name":"Sprite61","path":"sprites/Sprite61/Sprite61.yy",},"order":16,},
     {"id":{"name":"s_rock","path":"sprites/s_rock/s_rock.yy",},"order":5,},
     {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},"order":1,},
     {"id":{"name":"FirebaseFirestorePaths","path":"scripts/FirebaseFirestorePaths/FirebaseFirestorePaths.yy",},"order":2,},
