@@ -1,7 +1,7 @@
 /// @description Create Globals
 randomize()
 global.user = random(100000);
-show_message(global.user)
+
 global.analytics_weapons = {
 sword: 0,
 bomb:0,

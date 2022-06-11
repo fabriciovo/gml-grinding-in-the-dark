@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if global.player_health <= global.player_max_health {
 	if global.player_gems >= price_ {
-		text_desc_ = "The spirits\nfollows you now!"
+		//text_desc_ = "The spirits\nfollows you now!"
 		global.player_gems -= price_;
 		global.player_health = global.player_max_health;
 		alarm[1] = global.one_second*2;

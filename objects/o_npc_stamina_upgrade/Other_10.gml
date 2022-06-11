@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if global.player_gems >=price_ && global.player_max_stamina < 6 {
-		desc_text_ = "The spirits\nfollows you now!"
+		//desc_text_ = "The spirits\nfollows you now!"
 		global.player_gems -= price_;
 		global.player_max_stamina += 1;
 		global.player_stamina += 1;

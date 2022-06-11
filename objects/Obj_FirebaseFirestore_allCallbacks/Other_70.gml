@@ -23,7 +23,7 @@ if(async_load[?"status"] == 200)
 	
 if(async_load[?"status"] == 200)//400: general error; 404: document not found; 401: Unauthenticated; 403: permission-denied; 409: already-exists
 //if(async_load[?"listener"] == myListener)//comapre with your listener if you have one...
-show_message("poasckpaosk");
+
 switch(async_load[?"type"])
 {
 	
@@ -32,7 +32,7 @@ switch(async_load[?"type"])
 		var path = async_load[?"path"]
 		value = async_load[?"value"]
 		var _json = json_parse(value);
-		show_message(_json);
+
 		
 		var _keys = variable_struct_get_names(_json);
 	for (var _i = array_length(_keys)-1; _i >= 0; --_i) {
@@ -42,7 +42,6 @@ switch(async_load[?"type"])
 		
 		
 		var _monsters = json_parse(_parsed.monsters);
-		show_message(_monsters)
 		var _room_deaths = json_parse(_parsed.room_deaths);
 		var _weapons = json_parse(_parsed.weapons);
 		var _higher_rift_level = (_parsed.higher_rift_level);
