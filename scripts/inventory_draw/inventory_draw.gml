@@ -5,10 +5,17 @@ function inventory_draw(argument0, argument1) {
 	var _x = argument0;
 	var _y = argument1;
 	var _array_size = array_length_1d(global.inventory);
-
+	var _o = 0;
 	for (var _i=0; _i<_array_size; _i++) {
 		var _box_x = _x+_i*32;
 		var _box_y = _y;
+		if( _i > 8){
+			
+			_box_y = _y +32
+			_box_x = _x+_o*32;
+			_o++;
+		}
+		
 		draw_sprite(s_inventory_box, 0, _box_x, _box_y);
 	
 		var _item = global.inventory[_i];
@@ -24,19 +31,5 @@ function inventory_draw(argument0, argument1) {
 			}
 		}
 	}
-	draw_sprite(s_inventory_box,0,4,4);
-	draw_sprite(s_inventory_box,0,36,4);
-	if instance_exists(global.item[0]) {
-		draw_sprite(global.item[0].sprite_,0,20,20);
-
-	}
-
-	if instance_exists(global.item[1]) {
-		draw_sprite(global.item[1].sprite_,0,52,20);
-	}
-
-
-
-
 
 }

@@ -5,7 +5,7 @@ if chance(.1) {
 }
 if chance(.75) {
 	
-	instance_create_layer(x,y-8,"Instances", o_gem_pickup);
+	instance_create_layer(x,y-8,"Instances", o_pick_up_gem);
 }
 
 if instance_exists(o_rift_controll) {

@@ -9,19 +9,21 @@ if pause_ {
 		item_index_ = max(item_index_-1,0);
 		audio_play_sound(a_menu_select,1,false);
 	}
-	if o_input.action_one_press && global.inventory[item_index_] != noone{
+	if o_input.action_one_press && global.inventory[item_index_] != noone {
 		global.item[0] = global.inventory[item_index_];
+		
 		if global.inventory[item_index_] == global.item[1]{
 			global.item[0] = global.item[1];
 			global.item[1] = noone;
-
+			
 		}else{
 			global.item[0] = global.inventory[item_index_];
 		}
 		audio_play_sound(a_menu_select,1,false);
 	}
 	if  o_input.action_two_press && global.inventory[item_index_] != noone {
-		if global.inventory[item_index_] == global.item[0]{
+		global.item[1] = global.inventory[item_index_];
+		if global.inventory[item_index_] == global.item[0] {
 			global.item[1] = global.item[0];
 			global.item[0] = noone;
 		}else{
@@ -56,3 +58,57 @@ if o_input.pause_pressed{
 if(global.extra_health <= 0){
 	global.extra_health = 0;
 }
+
+
+
+//Analytics
+
+if o_input.action_two_press && global.inventory[item_index_] != noone && global.item[1] != noone { 
+	switch(global.item[1].action_){
+		case item_actions.sword:
+		global.analytics_weapons.sword++;
+		break;
+		case item_actions.magic_sword:
+		global.analytics_weapons.magic_sword++;
+		break;
+		case item_actions.bomb:
+		global.analytics_weapons.bomb++;
+		break;
+		case item_actions.dagger:
+		global.analytics_weapons.dagger++;
+		break;
+		case item_actions.teleport_ring:
+		global.analytics_weapons.teleport_ring++;
+		break;
+		case item_actions.shield_ring:
+		global.analytics_weapons.shield_ring++;
+	break;
+	}
+}
+
+
+if o_input.action_one_press && global.inventory[item_index_] != noone &&  global.item[0] != noone { 
+	switch(global.item[0].action_){
+		case item_actions.sword:
+		global.analytics_weapons.sword++;
+		break;
+		case item_actions.magic_sword:
+		global.analytics_weapons.magic_sword++;
+		break;
+		case item_actions.bomb:
+		global.analytics_weapons.bomb++;
+		break;
+		case item_actions.dagger:
+		global.analytics_weapons.dagger++;
+		break;
+		case item_actions.teleport_ring:
+		global.analytics_weapons.teleport_ring++;
+		break;
+		case item_actions.shield_ring:
+		global.analytics_weapons.shield_ring++;
+		break;
+	}
+}
+
+
+

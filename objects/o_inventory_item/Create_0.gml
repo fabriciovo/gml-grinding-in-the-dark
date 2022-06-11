@@ -4,3 +4,4 @@ action_ = item_actions.move;
 cost_ = 0;
 type_ = "";
 damage_item_ = 0;
+id_ = 0

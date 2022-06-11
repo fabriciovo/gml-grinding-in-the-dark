@@ -8,7 +8,7 @@ if distance_to_player_ < 16 {
 	text_desc_ = desc_text_;
 	text_price_ = price_text_;
 	show_sprite_ = sprite_;
-	if o_input.action_one_press {
+	if o_input.action_interaction_press_ {
 		event_user(0);
 	}
 }else {

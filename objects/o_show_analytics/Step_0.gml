@@ -33,3 +33,5 @@ vila4_ = global.analytics_room_deaths.vila4;
 vila5_ = global.analytics_room_deaths.vila5;
 vila6_ = global.analytics_room_deaths.vila6;
 world1_ =global.analytics_room_deaths.world1;
+
+higher_rift_level_ = global.analytics_higher_rift_level;

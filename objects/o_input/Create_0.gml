@@ -10,5 +10,3 @@ keyboard_set_map(ord("J"),ord("Z"));
 keyboard_set_map(ord("K"),ord("X"));
 keyboard_set_map(ord("L"),ord("C"));
 
-keyboard_set_map(ord("E"),vk_enter);
-

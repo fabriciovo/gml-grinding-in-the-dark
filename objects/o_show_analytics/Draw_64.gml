@@ -20,7 +20,6 @@ draw_text(40,220,"Bomber: " + string(bomber_kill_));
 draw_sprite(s_goblin,0,30,100);
 
 //Most used Weapons
-
 draw_text(200,50,"Weapons");
 draw_text(200,100,"Sword: " + string(sword_));
 
@@ -54,6 +53,9 @@ draw_text(800,190,"zone5: " + string(vila5_));
 
 draw_text(800,250,"zone6: " + string(vila6_));
 
-draw_text(800,250,"rift: " + string(rift_));
+draw_text(800,300,"rift: " + string(rift_));
 
+//Rift
+draw_text(800,50,"Rooms");
+//draw_text(800,100,"Higher rift level: " + string(higher_rift_level_));
 

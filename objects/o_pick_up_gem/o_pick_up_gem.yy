@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "s_riftstone",
-    "path": "sprites/s_riftstone/s_riftstone.yy",
+    "name": "s_gem",
+    "path": "sprites/s_gem/s_gem.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -35,7 +36,7 @@
     "path": "folders/Objects/items/Pickup.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_rift_stone",
+  "name": "o_pick_up_gem",
   "tags": [],
   "resourceType": "GMObject",
 }

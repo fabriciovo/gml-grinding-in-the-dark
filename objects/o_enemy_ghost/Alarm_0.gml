@@ -3,5 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-
-inventory_add_item(o_bomb_item);
+speed = 2;
+state_ = starting_state_;

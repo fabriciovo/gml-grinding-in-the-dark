@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this edito
+Firebase_Load();
 goblin_kill_ = global.analytics_monsters.goblin;
 cinder_kill_ = global.analytics_monsters.cinder;
 ghost_kill_ = global.analytics_monsters.ghost;
@@ -24,3 +25,4 @@ world1_ = global.analytics_room_deaths.world1;
 
 number_of_players_ = global.analytics_players;
 
+higher_rift_level_ = global.analytics_higher_rift_level;

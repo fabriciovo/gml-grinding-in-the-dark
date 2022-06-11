@@ -58,3 +58,9 @@ sprite_[playerrighthand.shield_ring, dirrighthand.right] = s_player_hand
 sprite_[playerrighthand.shield_ring, dirrighthand.left] = s_player_hand;
 sprite_[playerrighthand.shield_ring, dirrighthand.up] = s_player_hand;
 sprite_[playerrighthand.shield_ring, dirrighthand.down] = s_player_hand;
+
+
+sprite_[playerhand.magic_sword, dirhand.right] = s_player_attack_right;
+sprite_[playerhand.magic_sword, dirhand.up] = s_player_attack_up;
+sprite_[playerhand.magic_sword, dirhand.left] = s_player_attack_right;
+sprite_[playerhand.magic_sword, dirhand.down] = s_player_attack_down;

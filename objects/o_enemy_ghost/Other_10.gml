@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-state_ = starting_state_;
+/// @description Hit State
+speed = 0;
+

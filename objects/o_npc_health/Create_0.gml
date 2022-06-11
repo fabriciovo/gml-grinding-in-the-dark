@@ -8,4 +8,4 @@ image_xscale = choose(1,-1);
 desc_text_ = "Full Health\n Restore";
 price_text_ = "x10";
 sprite_ = s_gem;
-price_ = 3;
+price_ = 10;

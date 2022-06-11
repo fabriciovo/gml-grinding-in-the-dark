@@ -7,7 +7,7 @@
 ///@arg damage
 ///@arg knockback
 ///@arg object_index
-function create_hitbox(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8) {
+function create_hitbox(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8 = object_index) {
 	var _sprite = argument0;
 	var _x = argument1;
 	var _y = argument2;
@@ -27,13 +27,6 @@ function create_hitbox(argument0, argument1, argument2, argument3, argument4, ar
 	_hitbox.knockback_ = _knockback;
 
 
-	if(_object_index){
-		if(object_get_parent(_object_index) == o_enemy){
-			_hitbox.enemy_index_ = object_index;
-		}else if(_object_index == o_spell){
-			_hitbox.enemy_index_ = o_spell;
-		}
-	}
 
 	return _hitbox;
 

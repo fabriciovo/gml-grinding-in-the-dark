@@ -1,8 +1,7 @@
 /// @description Create Globals
-
-random_get_seed()
-global.user = random(10000);
-
+randomize()
+global.user = random(100000);
+show_message(global.user)
 global.analytics_weapons = {
 sword: 0,
 bomb:0,
@@ -32,12 +31,13 @@ global.analytics_room_deaths = {
 
 global.analytics_higher_rift_level = 0;
 global.analytics_players = 0;
-global.analytics_last_enemy_hit = "";
-
-Firebase_Load()
 
 
 
+
+if(room == r_analytics){
+	instance_create_layer(x,y,"Instances",o_show_analytics)
+} 
 
 
 

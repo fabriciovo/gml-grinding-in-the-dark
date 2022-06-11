@@ -5,33 +5,34 @@ if(!ds_map_exists(async_load,"type"))
 if(!string_count("FirebaseFirestore",async_load[?"type"]))
 	exit
 
-var ins = instance_create_depth(0,0,0,Obj_Debug_FallText_Firestore)
-ins.text = string(async_load[?"listener"]) + " - " + async_load[?"type"]  + " - " + async_load[?"path"] + " - " + string(async_load[?"status"])
+//var ins = instance_create_depth(0,0,0,Obj_Debug_FallText_Firestore)
+//ins.text = string(async_load[?"listener"]) + " - " + async_load[?"type"]  + " - " + async_load[?"path"] + " - " + string(async_load[?"status"])
 
 if(ds_map_exists(async_load,"value"))
-	ins.text += " -> " + string(async_load[?"value"])
+	//ins.text += " -> " + string(async_load[?"value"])
 	
 if(ds_map_exists(async_load,"errorMessage"))
-	ins.text += " -> " + string(async_load[?"errorMessage"])
+	//ins.text += " -> " + string(async_load[?"errorMessage"])
 
 if(async_load[?"status"] == 200)
-	ins.color = c_white
-else
-	ins.color = c_red
+	//ins.color = c_white
+//else
+	//ins.color = c_red
 
 //////////////////////
 	
 if(async_load[?"status"] == 200)//400: general error; 404: document not found; 401: Unauthenticated; 403: permission-denied; 409: already-exists
 //if(async_load[?"listener"] == myListener)//comapre with your listener if you have one...
+show_message("poasckpaosk");
 switch(async_load[?"type"])
 {
-
+	
 				
 	case "FirebaseFirestore_Collection_Read":
 		var path = async_load[?"path"]
 		value = async_load[?"value"]
 		var _json = json_parse(value);
-
+		show_message(_json);
 		
 		var _keys = variable_struct_get_names(_json);
 	for (var _i = array_length(_keys)-1; _i >= 0; --_i) {
@@ -41,8 +42,10 @@ switch(async_load[?"type"])
 		
 		
 		var _monsters = json_parse(_parsed.monsters);
+		show_message(_monsters)
 		var _room_deaths = json_parse(_parsed.room_deaths);
 		var _weapons = json_parse(_parsed.weapons);
+		var _higher_rift_level = (_parsed.higher_rift_level);
 		
 		global.analytics_monsters.cinder += _monsters.cinder
 		global.analytics_monsters.ghost += _monsters.ghost
@@ -65,6 +68,8 @@ switch(async_load[?"type"])
 		global.analytics_room_deaths.vila5+=_room_deaths.vila5;
 		global.analytics_room_deaths.vila6+=_room_deaths.vila6;
 		global.analytics_room_deaths.rift+=_room_deaths.rift;
+		global.analytics_higher_rift_level = _higher_rift_level
+
 
 		global.analytics_players++;
 

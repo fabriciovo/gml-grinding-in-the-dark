@@ -1,12 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_sword_item",
+    "path": "sprites/s_sword_item/s_sword_item.yy",
+  },
   "solid": false,
-  "visible": false,
+  "visible": true,
+  "managed": true,
   "spriteMaskId": null,
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": {
-    "name": "o_inventory_item",
-    "path": "objects/o_inventory_item/o_inventory_item.yy",
+    "name": "o_pickup",
+    "path": "objects/o_pickup/o_pickup.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -22,15 +26,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Inventory",
-    "path": "folders/Objects/items/Inventory.yy",
+    "name": "Pickup",
+    "path": "folders/Objects/items/Pickup.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_empty_item",
+  "name": "o_pickup_sword_first",
   "tags": [],
   "resourceType": "GMObject",
 }
