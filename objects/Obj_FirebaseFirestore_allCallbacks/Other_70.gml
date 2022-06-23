@@ -23,18 +23,20 @@ if(async_load[?"status"] == 200)
 	
 if(async_load[?"status"] == 200)//400: general error; 404: document not found; 401: Unauthenticated; 403: permission-denied; 409: already-exists
 //if(async_load[?"listener"] == myListener)//comapre with your listener if you have one...
-
+	show_message("aLSKMFlkasmlk")
+				
 switch(async_load[?"type"])
 {
-	
-				
-	case "FirebaseFirestore_Collection_Read":
-		var path = async_load[?"path"]
-		value = async_load[?"value"]
-		var _json = json_parse(value);
 
-		
-		var _keys = variable_struct_get_names(_json);
+	case "FirebaseFirestore_Collection_Read":
+		show_message("aLSKMFlkasmlk")
+		var path = async_load[?"path"]
+		var value = async_load[?"value"]
+		var _json = json_parse(value);
+		show_message(_json)
+		show_message(value)
+	var _keys = variable_struct_get_names(_json);
+	show_message(_keys);
 	for (var _i = array_length(_keys)-1; _i >= 0; --_i) {
 	    var _k = _keys[_i];
 	    var _item = variable_struct_get(_json, _k);
@@ -59,7 +61,6 @@ switch(async_load[?"type"])
 		global.analytics_weapons.bomb += _weapons.bomb
 		global.analytics_weapons.dagger += _weapons.dagger
 		
-
 		global.analytics_room_deaths.world1+= _room_deaths.world1;
 		global.analytics_room_deaths.vila2+=_room_deaths.vila2;
 		global.analytics_room_deaths.vila3+=_room_deaths.vila3;
@@ -69,11 +70,13 @@ switch(async_load[?"type"])
 		global.analytics_room_deaths.rift+=_room_deaths.rift;
 		global.analytics_higher_rift_level = _higher_rift_level
 
-
 		global.analytics_players++;
 
 	}
 
 	break
-
+	case "FirebaseFirestore_Collection_Query":
+		var path = async_load[?"path"]
+		value = async_load[?"value"]
+	break
 }
