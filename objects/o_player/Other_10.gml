@@ -16,10 +16,7 @@ if _x_input == 0 and _y_input == 0 {
 } else {
 	
 	image_speed = .1;
-	if _x_input != 0 {
-		image_xscale = _x_input;
 
-	}
 	get_direction_facing(_input_direction);
 	add_movement_maxspeed(_input_direction, acceleration_, max_speed_);
 	roll_direction_ = direction_facing_*90;

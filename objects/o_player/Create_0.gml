@@ -1,13 +1,14 @@
 initialize_movement_entity(.5, 1, o_solid);
 initialize_hurtbox_entity();
-instance_create_layer(x,y,"Instances",o_player_left_hand);
-instance_create_layer(x,y,"Instances",o_player_right_hand);
+hand_ = instance_create_layer(x,y,"Instances",o_player_hand);
 
 acceleration_ = .5;
 max_speed_ = 1.5;
 roll_speed_ = 4;
 direction_facing_ = dir.right; //= 0
 roll_direction_ = 0;
+aim_dir_ = 0
+
 
 flash_alpha_ = 0;
 flash_color_ = c_white;
@@ -17,9 +18,7 @@ enum player {
 	move,
 	evade,
 	hit,
-	dead
-	
-	
+	dead	
 }
 
 enum dir {

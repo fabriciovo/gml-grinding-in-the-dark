@@ -1,10 +1,8 @@
 {
-  "spriteId": {
-    "name": "s_bull",
-    "path": "sprites/s_bull/s_bull.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {

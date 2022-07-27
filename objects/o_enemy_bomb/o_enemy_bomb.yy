@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "s_bombs",
-    "path": "sprites/s_bombs/s_bombs.yy",
+    "name": "s_bomber_sleep",
+    "path": "sprites/s_bomber_sleep/s_bomber_sleep.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {

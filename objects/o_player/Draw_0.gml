@@ -1,4 +1,4 @@
-draw_sprite(s_medium_shadow,0,x,y);
+draw_sprite(s_medium_shadow,0,x,y+7);
 draw_self();
 if(flash_alpha_ > 0){
 shader_set(sh_flash);

@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -31,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "group1",
-    "path": "folders/Objects/items/group1.yy",
+    "name": "Instances",
+    "path": "folders/Objects/items/Instances.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_player_barrier",
