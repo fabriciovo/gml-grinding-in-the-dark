@@ -8,10 +8,6 @@ if room != r_init {
 		draw_set_alpha(0.6);
 		draw_rectangle_color(0, 0, _gui_width, _gui_height, c_black, c_black, c_black, c_black, false);
 		draw_set_alpha(1);
-		draw_text(x-156,_gui_height/2,"Movement \n arrows\n  or \n wasd");
-		draw_text(x-60,_gui_height/2,"Action Buttons");
-		draw_text(x-68,_gui_height/2+8,"z or j -Action 1\nx or k -Action 2\nc or l -Evade");
-		draw_text(x+54,_gui_height/2," Select Items \n  left-right \n   or a-d\n  to select");
 	}
 
 	var _hud_right_edge = max(global.player_max_health*15,2+global.player_max_stamina*17);

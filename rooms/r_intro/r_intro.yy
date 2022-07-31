@@ -13,7 +13,12 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1024,"hview":768,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_pickup_bomb","path":"objects/o_pickup_bomb/o_pickup_bomb.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":208.0,"y":80.0,"resourceVersion":"1.0","name":"inst_69348300","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_pickup_dagger","path":"objects/o_pickup_dagger/o_pickup_dagger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":240.0,"y":96.0,"resourceVersion":"1.0","name":"inst_419B0196","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_pickup_ring_shield","path":"objects/o_pickup_ring_shield/o_pickup_ring_shield.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":112.0,"resourceVersion":"1.0","name":"inst_36DC5A39","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_pickup_magic_sword","path":"objects/o_pickup_magic_sword/o_pickup_magic_sword.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":208.0,"y":96.0,"resourceVersion":"1.0","name":"inst_12ED3A6F","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_npc_tutorial","path":"objects/o_npc_tutorial/o_npc_tutorial.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":176.0,"y":64.0,"resourceVersion":"1.0","name":"inst_3F0832BB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_npc_tutorial","path":"objects/o_npc_tutorial/o_npc_tutorial.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":88.0,"resourceVersion":"1.0","name":"inst_6CF81D2A","tags":[],"resourceType":"GMRInstance",},
@@ -98,6 +103,10 @@
     {"name":"inst_78F425C3","path":"rooms/r_intro/r_intro.yy",},
     {"name":"inst_7D1C8491","path":"rooms/r_intro/r_intro.yy",},
     {"name":"inst_159050F4","path":"rooms/r_intro/r_intro.yy",},
+    {"name":"inst_69348300","path":"rooms/r_intro/r_intro.yy",},
+    {"name":"inst_419B0196","path":"rooms/r_intro/r_intro.yy",},
+    {"name":"inst_36DC5A39","path":"rooms/r_intro/r_intro.yy",},
+    {"name":"inst_12ED3A6F","path":"rooms/r_intro/r_intro.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
