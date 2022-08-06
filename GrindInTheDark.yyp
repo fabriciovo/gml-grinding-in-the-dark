@@ -175,7 +175,6 @@
     {"id":{"name":"o_boss","path":"objects/o_boss/o_boss.yy",},"order":1,},
     {"id":{"name":"o_boss_mage","path":"objects/o_boss_mage/o_boss_mage.yy",},"order":3,},
     {"id":{"name":"o_boss_mage_attack","path":"objects/o_boss_mage_attack/o_boss_mage_attack.yy",},"order":5,},
-    {"id":{"name":"o_start","path":"objects/o_start/o_start.yy",},"order":10,},
     {"id":{"name":"s_dark_rift_off","path":"sprites/s_dark_rift_off/s_dark_rift_off.yy",},"order":7,},
     {"id":{"name":"s_bomber","path":"sprites/s_bomber/s_bomber.yy",},"order":2,},
     {"id":{"name":"r_init","path":"rooms/r_init/r_init.yy",},"order":3,},
@@ -291,7 +290,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.6.0.23",
+    "IDEVersion": "2022.6.1.26",
   },
   "resourceVersion": "1.5",
   "name": "GrindInTheDark",

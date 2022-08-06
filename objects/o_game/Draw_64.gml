@@ -43,7 +43,7 @@ if room != r_init {
 	var _y = _gui_height - 16 + 4;
 	draw_sprite(s_riftstone, 0, _x-16, _y+7);
 	draw_text(_x-8, _y-1, _riftstone_string);
-
+	draw_sprite(s_inventory_box,0,4,4);
 
 	inventory_draw(4, 36);
 }

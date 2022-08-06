@@ -1,1 +1,0 @@
-tutorial_text_ = "Now hero,\nenter in this portal,\nand start your adventure";
