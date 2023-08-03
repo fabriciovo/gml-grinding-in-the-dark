@@ -1,1 +1,0 @@
-tutorial_text_ = "Press Z/X or J/K to attack\nand kill this monster";
