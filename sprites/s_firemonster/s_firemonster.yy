@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "s_firemonster",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 16,
   "height": 16,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d1881723-98a0-4de5-a2e0-5ed83b3cb9fa","path":"sprites/s_firemonster/s_firemonster.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d1881723-98a0-4de5-a2e0-5ed83b3cb9fa","path":"sprites/s_firemonster/s_firemonster.yy",},"LayerId":{"name":"5ffaa89f-3f33-42e7-8023-8d651277b8fc","path":"sprites/s_firemonster/s_firemonster.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_firemonster","path":"sprites/s_firemonster/s_firemonster.yy",},"resourceVersion":"1.0","name":"d1881723-98a0-4de5-a2e0-5ed83b3cb9fa","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0f448c13-8b6c-40e5-8473-d6f4219fe2ea","path":"sprites/s_firemonster/s_firemonster.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f448c13-8b6c-40e5-8473-d6f4219fe2ea","path":"sprites/s_firemonster/s_firemonster.yy",},"LayerId":{"name":"5ffaa89f-3f33-42e7-8023-8d651277b8fc","path":"sprites/s_firemonster/s_firemonster.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_firemonster","path":"sprites/s_firemonster/s_firemonster.yy",},"resourceVersion":"1.0","name":"0f448c13-8b6c-40e5-8473-d6f4219fe2ea","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d1881723-98a0-4de5-a2e0-5ed83b3cb9fa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0f448c13-8b6c-40e5-8473-d6f4219fe2ea",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_firemonster","path":"sprites/s_firemonster/s_firemonster.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -40,13 +42,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"39b9410d-28d0-4910-9f58-8d7bd90b9135","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d1881723-98a0-4de5-a2e0-5ed83b3cb9fa","path":"sprites/s_firemonster/s_firemonster.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"6b9be3d1-41c7-4543-aeb1-5a59e2352387","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f448c13-8b6c-40e5-8473-d6f4219fe2ea","path":"sprites/s_firemonster/s_firemonster.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"39b9410d-28d0-4910-9f58-8d7bd90b9135","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d1881723-98a0-4de5-a2e0-5ed83b3cb9fa","path":"sprites/s_firemonster/s_firemonster.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6b9be3d1-41c7-4543-aeb1-5a59e2352387","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f448c13-8b6c-40e5-8473-d6f4219fe2ea","path":"sprites/s_firemonster/s_firemonster.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 15,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_firemonster","path":"sprites/s_firemonster/s_firemonster.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5ffaa89f-3f33-42e7-8023-8d651277b8fc","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5ffaa89f-3f33-42e7-8023-8d651277b8fc","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Cinder",
     "path": "folders/Sprites/Enemy Sprites/Cinder.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_firemonster",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

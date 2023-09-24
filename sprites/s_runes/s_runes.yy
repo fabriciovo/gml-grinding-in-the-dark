@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "s_runes",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 16,
   "height": 16,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"93d9ac4f-c636-494f-861c-0991af06e4f9","path":"sprites/s_runes/s_runes.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"93d9ac4f-c636-494f-861c-0991af06e4f9","path":"sprites/s_runes/s_runes.yy",},"LayerId":{"name":"d47d193a-86ee-45e6-b8d9-e30eaeaec58b","path":"sprites/s_runes/s_runes.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_runes","path":"sprites/s_runes/s_runes.yy",},"resourceVersion":"1.0","name":"93d9ac4f-c636-494f-861c-0991af06e4f9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7384f0f2-ed6f-4f07-9067-32facc6738d7","path":"sprites/s_runes/s_runes.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7384f0f2-ed6f-4f07-9067-32facc6738d7","path":"sprites/s_runes/s_runes.yy",},"LayerId":{"name":"d47d193a-86ee-45e6-b8d9-e30eaeaec58b","path":"sprites/s_runes/s_runes.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_runes","path":"sprites/s_runes/s_runes.yy",},"resourceVersion":"1.0","name":"7384f0f2-ed6f-4f07-9067-32facc6738d7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"93d9ac4f-c636-494f-861c-0991af06e4f9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7384f0f2-ed6f-4f07-9067-32facc6738d7",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_runes","path":"sprites/s_runes/s_runes.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "s_runes",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b8e2cbce-68c3-469c-a0f0-e9f2b7722e8d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"93d9ac4f-c636-494f-861c-0991af06e4f9","path":"sprites/s_runes/s_runes.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"556952da-322f-4272-a08e-fc279edd2fe9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7384f0f2-ed6f-4f07-9067-32facc6738d7","path":"sprites/s_runes/s_runes.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_runes","path":"sprites/s_runes/s_runes.yy",},
-    "resourceVersion": "1.4",
-    "name": "s_runes",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d47d193a-86ee-45e6-b8d9-e30eaeaec58b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d47d193a-86ee-45e6-b8d9-e30eaeaec58b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Dark Rift",
     "path": "folders/Sprites/Dark Rift.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_runes",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
